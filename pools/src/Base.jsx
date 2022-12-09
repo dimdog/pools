@@ -21,16 +21,16 @@ export function Base(props){
                         </Typography>
                     </Grid2>
                 </Grid2>
-                <Grid2 item mdOffset={1} xs={1}>
+                <Grid2 item mdOffset={0} xs={2}>
                     <PlayerStandings />
                 </Grid2>
-                <Grid2 item mdOffset={0} xs={4}>
+                <Grid2 item mdOffset={0} xs={7}>
                     <PlayerEntries />
                 </Grid2>
-                <Grid2 item mdOffset={0} xs={4}>
+                <Grid2 item mdOffset={0} xs={3}>
                     <ContestantStandings />
                 </Grid2>
-                <Grid2 item mdOffset={1} xs={10}>
+                <Grid2 item mdOffset={0} xs={12}>
                     <ContestantRounds />
                 </Grid2>
             </Grid2>
